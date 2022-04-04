@@ -10,7 +10,7 @@ export const CardSection = ({section}) => {
         <Card.Body>
           <Card.Title>{section.SecTitle}</Card.Title>
           
-          <Button variant="secondary" href="/">Conoce mas...</Button>
+          <Button variant="secondary" href={section.link}>Conoce mas...</Button>
         </Card.Body>
       </Card>
     </>

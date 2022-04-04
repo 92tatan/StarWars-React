@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar, Container, Nav, NavDropdown,Button,
     DropdownButton,Dropdown } from "react-bootstrap";
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
 import sable from './Assets/star-wars-bar.webp';
 
 export const NavBar = () => {
